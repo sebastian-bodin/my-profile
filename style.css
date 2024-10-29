@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+
+body {
+	background-color: #E9E4DB;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+
+a {
+	text-decoration: none;
+	color: #E9E4DB;
+	font-weight: 600;
+}
+
+p {
+	color: #E9E4DB;
+}
+
+h2 {
+	color: #E9E4DB;
+}
+
+h1 {
+	color: #E9E4DB;
+}
+
+.card-white {
+	background-color: #264D59;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	margin: 30px 0px;
+	text-align: center;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.image-circle {
+	border-radius: 50%;
+	width: 120px;
+}
+
+.btn-greige {
+	background-color: #E9E4DB;
+	color: #264D59;
+	padding: 15px 20px;
+	border-radius: 10px;
+}
+
+.btn-greige:hover {
+	background-color: black;
+	color: #E9E4DB;
+
+}
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+.list-horizontal i {
+	font-size: 50px;
+	color: #E9E4DB;
+}
+.list-horizontal i:hover {
+	color: black;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+}
+
